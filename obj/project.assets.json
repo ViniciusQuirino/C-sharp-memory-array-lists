@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/C-sharp-memory, array, lists.csproj",
+      "projectUniqueName": "/home/vinicius/Área de Trabalho/C-sharp-memory-array-lists/C-sharp-memory, array, lists.csproj",
       "projectName": "C-sharp-memory, array, lists",
-      "projectPath": "/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/C-sharp-memory, array, lists.csproj",
+      "projectPath": "/home/vinicius/Área de Trabalho/C-sharp-memory-array-lists/C-sharp-memory, array, lists.csproj",
       "packagesPath": "/home/vinicius/.nuget/packages/",
-      "outputPath": "/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/",
+      "outputPath": "/home/vinicius/Área de Trabalho/C-sharp-memory-array-lists/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/vinicius/.nuget/NuGet/NuGet.Config"
