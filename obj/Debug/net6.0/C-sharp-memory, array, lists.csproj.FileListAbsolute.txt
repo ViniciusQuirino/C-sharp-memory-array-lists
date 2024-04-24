@@ -1,0 +1,15 @@
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/bin/Debug/net6.0/C-sharp-memory, array, lists
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/bin/Debug/net6.0/C-sharp-memory, array, lists.deps.json
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/bin/Debug/net6.0/C-sharp-memory, array, lists.runtimeconfig.json
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/bin/Debug/net6.0/C-sharp-memory, array, lists.dll
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/bin/Debug/net6.0/ref/C-sharp-memory, array, lists.dll
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/bin/Debug/net6.0/C-sharp-memory, array, lists.pdb
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.csproj.AssemblyReference.cache
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.GeneratedMSBuildEditorConfig.editorconfig
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.AssemblyInfoInputs.cache
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.AssemblyInfo.cs
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.csproj.CoreCompileInputs.cache
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.dll
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/ref/C-sharp-memory, array, lists.dll
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.pdb
+/home/vinicius/Área de Trabalho/C-sharp-memory, array, lists/obj/Debug/net6.0/C-sharp-memory, array, lists.genruntimeconfig.cache
