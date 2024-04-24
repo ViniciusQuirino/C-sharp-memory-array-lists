@@ -8,29 +8,32 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite qual é quantidade de produtos que deseja fazer a média dos preços: ");
+            Console.Write("Digite quantos quartos será ocupados: ");
             int n = int.Parse(Console.ReadLine());
 
-            Product[] vect = new Product[n];
-            
+            Students[] vect = new Students[10];
 
             for (int i = 0; i < n; i++)
             {
-                System.Console.Write("Digite o nome: ");
+                System.Console.Write("Digite o nome do estudante: ");
                 string name = Console.ReadLine();
-                System.Console.Write("Digite o preço: ");
-                double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                vect[i] = new Product { Name = name, Price = price };
-            }
+                System.Console.Write("Digite o email do estudante: ");
+                string email = Console.ReadLine();
+                System.Console.Write("Digite o quarto que será ocupado pelo estudante: ");
+                int room = int.Parse(Console.ReadLine());
 
-            double sum = 0;
-            for (int i = 0; i < n; i++)
+                vect[room] = new Students(name, email);
+
+            }
+            Console.WriteLine();
+            Console.WriteLine("Quartos ocupados:");
+            for (int i = 0; i < 10; i++)
             {
-                sum += vect[i].Price;
+                if (vect[i] != null)
+                {
+                    Console.WriteLine(i + ": " + vect[i]);
+                }
             }
-            double avg = sum / n;
-
-            Console.WriteLine($"AVERAGE HEIGHT = {avg.ToString("F2", CultureInfo.InvariantCulture)}");
         }
     }
 }
