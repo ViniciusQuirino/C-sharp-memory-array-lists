@@ -1,24 +1,20 @@
 ﻿using System;
 using System.Globalization;
+using System.Numerics;
 
 
 namespace MyApp
 {
     internal class Program
     {
-        static void Main(string[] args) 
-        {  
-           //stack
-           int x = 10;
+        static void Main(string[] args)
+        {
+            string[] vect = new string[] { "Maria", "Vinicius", "Beto" };
 
-           //heap = boxing
-           Object obj = 20;
-
-           //unboxing
-            int y = (int) obj;
-            System.Console.WriteLine(y);
-             
-
+            foreach (string obj in vect)
+            {
+                System.Console.WriteLine(obj);
+            }
         }
     }
 }
