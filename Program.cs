@@ -8,38 +8,8 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite quantos quartos será ocupados: ");
-            int n = int.Parse(Console.ReadLine());
-
-            Students[] vect = new Students[10];
-
-            for (int i = 0; i < n; i++)
-            {
-                System.Console.Write("Digite o nome do estudante: ");
-                string name = Console.ReadLine();
-                System.Console.Write("Digite o email do estudante: ");
-                string email = Console.ReadLine();
-                System.Console.Write("Digite o quarto que será ocupado pelo estudante: ");
-                int room = int.Parse(Console.ReadLine());
-
-                if(room > 9){
-                    System.Console.WriteLine("Não existe esse quarto");
-                }
-                
-                vect[room] = new Students(name, email);
-
-            }
-
-            Console.WriteLine();
-            Console.WriteLine("Quartos ocupados:");
-            for (int i = 0; i < 9; i++)
-            {
-                if (vect[i] != null)
-                {
-                    Console.WriteLine(i + ": " + vect[i]);
-                }
-               
-            }
+            int s1 = Calculator.Sum(5, 2, 5);
+            System.Console.WriteLine(s1);
         }
     }
 }
