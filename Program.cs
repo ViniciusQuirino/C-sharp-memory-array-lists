@@ -10,7 +10,7 @@ namespace MyApp
         static void Main(string[] args)
         {
             List<string> list = new List<string>();
-            //ADICIONAR NA LSITA
+            //ADICIONAR NA LISTA
             list.Add("Vinicius");
             list.Add("Alex");
             list.Add("Bob");
