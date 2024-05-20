@@ -2,9 +2,9 @@ namespace C_sharp_memory_array_lists
 {
     public class Calculator
     {
-        public static void Triple(ref int x)
+        public static void Triple(int a, out int result)
         {
-            x = x * 3;
+            result = a * 3;
         }
     }
 }

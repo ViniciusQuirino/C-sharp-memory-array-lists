@@ -9,8 +9,9 @@ namespace MyApp
         static void Main(string[] args)
         {
             int x = 10;
-            Calculator.Triple(ref x);
-            System.Console.WriteLine(x);
+            int triple;
+            Calculator.Triple(x, out triple);
+            System.Console.WriteLine(triple);
         }
     }
 }
