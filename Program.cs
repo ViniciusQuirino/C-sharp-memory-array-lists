@@ -8,8 +8,9 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            int s1 = Calculator.Sum(5, 2, 5);
-            System.Console.WriteLine(s1);
+            int x = 10;
+            Calculator.Triple(ref x);
+            System.Console.WriteLine(x);
         }
     }
 }
