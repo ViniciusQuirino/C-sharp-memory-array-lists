@@ -9,12 +9,41 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-           double[,] mat= new double[2,3];
+            int n = int.Parse(Console.ReadLine());
 
-           System.Console.WriteLine(mat.Length); //Quantidade de itens
-           System.Console.WriteLine(mat.Rank); //Quantidade de linha
-           System.Console.WriteLine(mat.GetLength(0)); //Quantidade de linha
-           System.Console.WriteLine(mat.GetLength(1)); //Quantidade de coluna
+            int[,] mat = new int[n, n];
+
+            for (int i = 0; i < n; i++)
+            {
+                string[] values = Console.ReadLine().Split(" ");
+
+                for (int j = 0; j < n; j++)
+                {
+                    mat[i, j] = int.Parse(values[j]);
+                }
+            }
+
+            System.Console.WriteLine("Main diagonal:");
+            for (int i = 0; i < n; i++)
+            {
+                System.Console.Write(mat[i, i] + " ");
+            }
+
+            int count = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (mat[i, j] < 0)
+                    {
+                        count++;
+                    }
+                }
+            }
+            System.Console.WriteLine();
+            System.Console.WriteLine("------------------");
+            System.Console.WriteLine("Negative numbers: " + count);
+
         }
     }
 }
