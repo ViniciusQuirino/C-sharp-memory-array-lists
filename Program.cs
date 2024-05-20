@@ -22,17 +22,23 @@ namespace MyApp
                 System.Console.Write("Digite o quarto que será ocupado pelo estudante: ");
                 int room = int.Parse(Console.ReadLine());
 
+                if(room > 9){
+                    System.Console.WriteLine("Não existe esse quarto");
+                }
+                
                 vect[room] = new Students(name, email);
 
             }
+
             Console.WriteLine();
             Console.WriteLine("Quartos ocupados:");
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 9; i++)
             {
                 if (vect[i] != null)
                 {
                     Console.WriteLine(i + ": " + vect[i]);
                 }
+               
             }
         }
     }
